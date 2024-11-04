@@ -10,7 +10,7 @@ INCLUDELIB LIBCMT
 INCLUDELIB OLDNAMES
 
 CONST	SEGMENT
-$SG5654	DB	'Hello, World!', 0aH, 00H
+$SG6823	DB	'Hello, HailScript!', 0aH, 00H
 CONST	ENDS
 PUBLIC	___local_stdio_printf_options
 PUBLIC	__vfprintf_l
@@ -33,7 +33,7 @@ _main	PROC
 	push	ebp
 	mov	ebp, esp
 ; Line 4
-	push	OFFSET $SG5654
+	push	OFFSET $SG6823
 	call	_printf
 	add	esp, 4
 ; Line 5

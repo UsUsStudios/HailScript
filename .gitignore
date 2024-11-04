@@ -1,6 +1,0 @@
-build/
-build/*.obj
-build/*.asm
-build/*.pdb
-build/*.ilk
-build/*.exe
