@@ -1,4 +1,4 @@
-HailScript Language License
+# HailScript Language License
 
 Copyright © 2024 UsUsStudios
 All rights reserved.
